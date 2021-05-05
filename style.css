@@ -1,0 +1,51 @@
+body {
+  background-color: #edeef0;
+  font-family: "Press Start 2P", cursive;
+}
+.title {
+  text-align: center;
+}
+button {
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  border-radius: 7px;
+  box-shadow: 0 0.2em gray;
+  cursor: pointer;
+  width: max-content;
+  font-family: "Press Start 2P", cursive;
+}
+
+button:active {
+  box-shadow: none;
+  position: relative;
+  top: 0.2em;
+}
+
+.play-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#winner {
+  margin-top: 2rem;
+}
+.players {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.players img {
+  width: 500px;
+  height: 500px;
+}
+.players img:last-child {
+  transform: rotate(-135deg);
+}
